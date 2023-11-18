@@ -2,6 +2,19 @@
 <head>
 	<meta charset="UTF8">
 	<title>3B11</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!--<style>
+	<!--Code Css-->
+	<!--#parag{color:white}
+	.p{
+		color: pink;
+		background-color:#ff002a;}
+	body{
+		font-family:Verdana
+		
+		}
+	</style>-->
 </head>
 <body>
 <!--><div id="header"></div><!-->
@@ -17,11 +30,11 @@
 <hr>
 </header>
 <section class="a">
-	<p> Bonjour les <i><b>3B11</b></i></p>
+	<p id="parag" class="p"> Bonjour les <i><b>3B11</b></i></p>
 	<table border="1">
-	<caption>T1:Liste des étudiants</caption>
+	<caption class="p">T1:Liste des étudiants</caption>
 		<tr>
-			<th>Nom</th><th>prenom</th><th>classe</th>
+			<th class="p">Nom</th><th>prenom</th><th>classe</th>
 		</tr>
 		<tr>
 			<td>Mansouri</td><td>Ahmed</td>
@@ -35,14 +48,16 @@
 			<td>3B12</td>
 		</tr>
 	</table>
-	<ul>
+	<div>
+	<ul >
 		<li>Ahmed</li>
 		<li>Mansouri</li>
 	</ul>
-	<ol start="3">
+	<ol start="3" >
 		<li>Ahmed</li>
 		<li>Mansouri</li>
 	</ol>
+	</div>
 	<content>
 		<form method="POST" action="">
 		<fieldset>
@@ -54,7 +69,7 @@
 		<!-- 
 				<label>email:</label><input type="email" placeholder="@esprit.tn"><br>
 -->
-		<label>email:</label><input type="email" value="@esprit.tn"><br>
+		<label>email:</label><input type="email" value="@esprit.tn" id="mail"><br>
 		<label>PWD:</label><input type="password" pattern=".{8}" title="8 carractères"><br>
 		<label>Genre:</label>
 			<label>H</label><input type="radio" name="g">
@@ -97,7 +112,7 @@
 		<label>LinkedIn:</label><input type="link"><br>
 		<label>Description:</label><textarea></textarea><br>
 
-		 <input type="submit" value="Confirmer Submit">
+		 <input type="submit" value="Confirmer Submit" id="btn">
 		 <input type="button" value="Confirmer btn" onclick="">
 		 <button>Confirmer btn</button>
 		 <input type="reset" value="reset">
@@ -105,6 +120,6 @@
 		</form>
 	</content>
 </section>
-<footer id="footer" class="a">Copyright 2023</footer>
+<footer id="footer" class="a"><p>Copyright 2023</p></footer>
 </body>
 </html>

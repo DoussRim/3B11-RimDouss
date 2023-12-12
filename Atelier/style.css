@@ -1,0 +1,48 @@
+body{
+	font-family:Tribuchet;
+	margin : 0px;
+}
+header{
+	background-color:#e9b6b6;
+	color:white;
+}
+.LienTitre{
+	color:red;
+    text-decoration:none;	
+}
+.LienTitre:visited{
+	color:black	
+}
+.LienTitre:hover{
+	color:yellow	
+}
+.LienTitre:active{
+	color:green	
+}
+h3{ 
+	text-decoration:underline;
+	color:red;
+	font-size:50px;
+	margin:10px;
+	padding:10px;}
+#form{
+	width: 500px;
+	padding:20px;
+	background-color:#f2f2f2;
+}
+button{
+	background-color:#DED983;
+	font-size:1.2em;
+	color:#345071;
+	font-family: Trebuchet MS,Verdana,sans-serif;
+}
+input,textarea{
+	width:100%;
+	padding:12px;
+	margin:8px;
+	border:1px solid red;
+}
+footer{
+	background-color:red;
+	color: white;
+}

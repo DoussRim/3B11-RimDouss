@@ -53,6 +53,23 @@ function Verif(){
 	console.log(pass2.value)*/
 	if( pass1.value=== pass2.value &&
 	pass1.value !="" && pass2.value!="")
-		parag.innerHTML="<b>pwd correcte</b>"
+		parag.innerHTML="<b style='color:green'>pwd correcte</b>"
 	else alert("corriger votre pwd")
 }
+//function titre(){
+	/*titres=document.getElementsByClassName('titre')
+	titres=document.getElementsByName('tt')
+	titres=document.getElementsByTagName('h1')
+	titres=document.querySelector(".titre")*/
+	titres=document.querySelector("h1")
+	t1=document.querySelector("#t1")
+	t1.addEventListener('click',function(){
+		t2=document.querySelector("#t2").innerHTML
+		t3=document.querySelector("#t3").innerHTML
+		document.querySelector("#pp").innerText=t1.innerHTML+" "+t2+" "+t3
+	})
+	/*t2=document.querySelector("#t2").innerHTML
+	t3=document.querySelector("#t3").innerHTML
+	console.log(t1)
+	document.querySelector("#pp").innerText=t1.innerHTML+" "+t2+" "+t3*/
+//}

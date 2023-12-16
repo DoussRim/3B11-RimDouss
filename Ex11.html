@@ -59,11 +59,11 @@
 	</ol>
 	</div>
 	<content>
-		<form method="POST" action="">
+		<form method="POST" action="" name="ff">
 		<fieldset>
 		<legend><b>Inscription</b></legend>
-		<label>Nom:</label><input type="text" pattern="[A-Za-z]{3}"><br>
-		<label>Prenom:</label><input type="text" required><br>
+		<label>Nom:</label><input type="text" name="nn" pattern="[A-Za-z]{3}"><br>
+		<label>Prenom:</label><input type="text" name="nn" required><br>
 		<label>CIN:</label><input type="number" disabled><br>
 		<label>Date Naissance:</label><input type="date"><br>
 		<!-- 
@@ -121,5 +121,9 @@
 	</content>
 </section>
 <footer id="footer" class="a"><p>Copyright 2023</p></footer>
+<script>
+
+	document.ff.nn[0].value
+</script>
 </body>
 </html>
